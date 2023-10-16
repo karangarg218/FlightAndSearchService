@@ -22,6 +22,12 @@ following code
 - After adding all of these go to the src folder in the terminal and execute
 `npx sequelize db:create`
 
+- Now run the migration (current working directory must be Src)
+`npx sequelize db:migrate`
+
+- Run the sedder files(current working directory must be Src)
+`npx sequelize db:seed:all`
+
 ## Database Design
     - Airplane table
     - Flight Table
